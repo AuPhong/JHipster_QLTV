@@ -1,0 +1,82 @@
+{
+  "name": "BookEntity",
+  "fields": [
+    {
+      "fieldName": "bookCode",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "bookName",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "author",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "publisher",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "bookCategory",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "inputDate",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "status",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "borrower",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "borrowDate",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "intendedReturnDate",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "createUser",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "createDate",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "updateUser",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "updateDate",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "bookImage",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "isActive",
+      "fieldType": "String"
+    }
+  ],
+  "relationships": [],
+  "entityTableName": "book_entity",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": "*",
+  "changelogDate": "20221027033805"
+}

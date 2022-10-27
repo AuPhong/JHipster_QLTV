@@ -1,0 +1,64 @@
+{
+  "name": "BorrowBook",
+  "fields": [
+    {
+      "fieldName": "empCode",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "bookCode",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "status",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "borrowDate",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "intendedReturnDate",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "returnDate",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "numberOfExpirationDate",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "bookCategory",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "createUser",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "createDate",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "updateUser",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "updateDate",
+      "fieldType": "Instant"
+    }
+  ],
+  "relationships": [],
+  "entityTableName": "borrow_book",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": "*",
+  "changelogDate": "20221027033807"
+}

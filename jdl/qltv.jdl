@@ -1,0 +1,53 @@
+entity BookEntity {
+    bookCode String required,
+    bookName String required,
+    author String,
+    publisher String,
+    bookCategory Long,
+    inputDate Instant,
+    status String,
+    borrower Long,
+    borrowDate LocalDate,
+    intendedReturnDate LocalDate,
+    createUser Long,
+    createDate Instant,
+    updateUser Long,
+    updateDate Instant,
+    bookImage String,
+    isActive String
+}
+
+entity BookCategory {
+    categoryName String
+}
+
+entity BorrowBook {
+    empCode Long,
+    bookCode String,
+    status String,
+    borrowDate LocalDate,
+    intendedReturnDate LocalDate,
+    returnDate LocalDate,
+    numberOfExpirationDate Long,
+    bookCategory Long,
+    createUser Long,
+    createDate Instant,
+    updateUser Long,
+    updateDate Instant
+}
+
+entity Emp {
+    code String,
+    name String,
+    email String,
+    phone String,
+    department Long,
+    position String,
+    status String,
+    synDate Instant,
+    provinceCode String
+}
+
+entity Department {
+    name String
+}

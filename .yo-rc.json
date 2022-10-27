@@ -42,6 +42,8 @@
     "clientTheme": "none",
     "clientThemeVariant": "",
     "withAdminUi": true,
-    "languages": ["en", "vi"]
+    "languages": ["en", "vi"],
+    "entities": ["BookEntity", "BookCategory", "BorrowBook", "Emp", "Department"],
+    "lastLiquibaseTimestamp": 1666841889000
   }
 }
